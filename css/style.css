@@ -1,0 +1,31 @@
+*{
+ 
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left,#333, blue,orange,gray);
+}
+.main-container{
+    min-width: 300px;
+    padding: 3rem;
+    display: flex;
+    width: 30vw;
+    background-color: white;
+    border-radius: 0.7rem;
+    margin-top: 130px;
+}
+.user-img{
+    width:200px;
+    height: auto;
+    position: relative;
+    top: -20vh;
+    margin: 0 auto;
+}
+.link-secondary{
+    line-height: 3;
+}
+.head{
+    margin-top: -20vh;
+}
